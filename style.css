@@ -1,0 +1,153 @@
+/* MY CSS */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.font {
+    font-size: 14px;
+}
+
+.head1 {
+    font-size: 36px;
+}
+
+
+/* Navbar */
+.logo {
+    background: #0D28A6;
+    width: 100px;
+    height: 34px;
+}
+
+.cursor {
+    color: black !important;
+    transition: .5s;
+}
+
+.cursor:hover {
+    cursor: pointer;
+    color: white !important;
+    background-color: #5CB85F;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+
+/* Jumbotron */
+.section1 {
+    background-color: #F1F3FF;
+    background-image: url('img/img_car.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+
+/* Main */
+.checklist {
+    background-color: #CFD4ED;
+}
+
+
+/* Container */
+.kotak {
+    background-color: #0D28A6;
+    border-radius: 13px;
+}
+
+
+/* Testimonial */
+.testi {
+    background-color: #F1F3FF;
+    border-radius: 13px;
+}
+
+.owl-nav {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.fa-circle-chevron-left {
+    margin-right: 10px;
+}
+
+.svg-inline--fa {
+    font-size: 30px;
+}
+
+.bintang {
+    width: 15px !important;
+}
+
+
+
+
+/* CSS RESPONSIVE */
+@media only screen and (max-width: 768px) {
+    nav div div div a{
+        font-size: 9px;
+    }
+
+    .section1 {
+        color: #F1F3FF;
+        width: 100%;
+        text-align: center;
+    }
+
+    .kotak {
+        font-size: 12px;
+        margin: 20px;
+    }
+
+    .gap {
+        margin-bottom: 10px;
+    } 
+}
+
+
+@media only screen and (max-width: 576px) {
+    nav div div div a{
+        font-size: 14px !important;
+    }
+
+    .cover {
+        background-color: #0D28A6;
+        border-radius: 8px;
+        padding-top: 16px;
+        padding-bottom: 15px;
+        margin: 0px;
+    }
+
+    .section1 {
+        color: #F1F3FF;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .foto {
+        width: 50%;
+        margin-left: 110px;
+    }
+
+    .huruf {
+        text-align: center;
+    }
+
+    .kotak {
+        font-size: 12px;
+        margin: 20px;
+    }
+
+    .gap {
+        margin-bottom: 10px;
+    }
+
+    .fa-circle-chevron-left {
+        margin-right: 5px;
+    }
+
+    .svg-inline--fa {
+        font-size: 20px;
+    }
+}
+
