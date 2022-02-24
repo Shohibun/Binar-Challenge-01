@@ -37,7 +37,7 @@
 /* Jumbotron */
 .section1 {
     background-color: #F1F3FF;
-    background-image: url('img/img_car.png');
+    background-image: url('Image/img_car.png');
     background-repeat: no-repeat;
     background-position: right bottom;
 }
@@ -75,10 +75,13 @@
     font-size: 30px;
 }
 
+.svg-inline--fa :hover {
+    color: #5CB85F;
+}
+
 .bintang {
     width: 15px !important;
 }
-
 
 
 
@@ -109,7 +112,7 @@
     nav div div div a{
         font-size: 14px !important;
     }
-
+    
     .cover {
         background-color: #0D28A6;
         border-radius: 8px;
